@@ -63,9 +63,11 @@ These are some nice to have
 * Production ready code.
 * Add some tests.
 
-## Deliverables
+## Project Delivery
+Please provide a copy of your code and a url to a working example.
+
 * Link to the repository (github or bitbucket).
-* Working demo of your app (heroku or any other hosting).
+* URL of a working demo of your app (heroku or any other hosting).
 * Optionally, any comments you want to share with us.
 
 Feel free to ask any question or clarification and, happy coding!

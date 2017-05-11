@@ -9,14 +9,14 @@ The API you will be using it's a public API that pulls movies/shows from Netflix
 http://netflixroulette.net/api/
 
 ## Backend
-The backend will be used to store the favorite movies from the user. You can assume there will be only one user so authentication and user models are not needed to be implemented.
+The backend will be used to store the favorite movies from the user. You can assume there will be only one user so authentication and user models are not needed to be implemented. This means, only the shows/movies the user selects as favourites need to be stored in the database. This way, when the user enters in the site again, they will see their selection.
 
 Feel free to use any backend that you feel comfortable with, but always using the technologies we use: WordPress, NodeJS (any framework).
 
 ## Frontend
 We provide full design for both Mobile and Desktop versions of the application. Normally we use Zeplin (http://zeplin.io) to provide the design and assets, but you can request Sketch files as well if you prefer (ask the person in contact for them). 
 
-To see the zeplin project follow this link: https://zpl.io/Z2mVQUm And request access with your account (create one if you don't have one already)
+To see the zeplin project follow this link: https://zpl.io/Z2mVQUm And request access with your account (create one if you don't have one already). Some notes were added to the design for more clarification, be sure you read them!
 
 For the frontend, you can use any JS framework or library. Preferred are React or Angular, but you can use vanillaJS or jQuery if you feel more comfortable with those, as well as any front-end framework (ui-kit, bootstrap, foundation). Anything that helps you to build faster is completely fine.
 
@@ -62,5 +62,10 @@ These are some nice to have
 * Travis integration for code lint.
 * Production ready code.
 * Add some tests.
+
+## Deliverables
+* Link to the repository (github or bitbucket).
+* Working demo of your app (heroku or any other hosting).
+* Optionally, any comments you want to share with us.
 
 Feel free to ask any question or clarification and, happy coding!

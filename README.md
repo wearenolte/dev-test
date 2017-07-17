@@ -20,6 +20,8 @@ To see the zeplin project follow this link: https://zpl.io/Z2mVQUm And request a
 
 For the frontend, you can use any JS framework or library. Preferred are React or Angular, but you can use vanillaJS or jQuery if you feel more comfortable with those, as well as any front-end framework (ui-kit, bootstrap, foundation). Anything that helps you to build faster is completely fine.
 
+Check this Google Drive folder for all the assets you should need (e.g. fonts): https://drive.google.com/drive/u/3/folders/0B7mwU1XUucqxcUZKSWNONGdDdjg
+
 ## User stories
 At Nolte, we work Agile! That means, normally developers receive the specifications based on user stories. The following user stories will help you to understand the requirements of the application.
 

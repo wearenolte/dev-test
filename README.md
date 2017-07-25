@@ -22,15 +22,14 @@ For the frontend, you can use any JS framework or library. Preferred are React o
 
 Check this Google Drive folder for all the assets you should need (e.g. fonts): https://drive.google.com/drive/u/3/folders/0B7mwU1XUucqxcUZKSWNONGdDdjg
 
-We only ask you to build the Grid of favorites (Named 'Favorites' and 'My Favorites - Mobile' in Zeplin). Do not implement the **detail** pages ('Opened Item layouts')
+At the end of the test, your app should show a Grid of shows and the user will be able to add new shows using the Search bar at the top. 
 
 ## User stories
 At Nolte, we work Agile! That means, normally developers receive the specifications based on user stories. The following user stories will help you to understand the requirements of the application.
 
 - As a user I want to be able to look for new movies/shows based on titles.
-  - Show the movie/show in a dropdown below the input
-  - Look for the movie once the user hits enter or click on the search icon
-  - Show a "not found" message if the response is empty
+  - Look for the movie and add it to the grid once the user hits enter or click on the search icon
+  - Show a "not found" message if the response is empty (alert is fine)
 
 - As a user I want to be able to save my favourite movies/shows and see them every time I load the app.
   - Store the favourite movie in the database via Http request.

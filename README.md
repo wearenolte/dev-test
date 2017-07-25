@@ -11,7 +11,7 @@ http://netflixroulette.net/api/
 ## Backend
 The backend will be used to store the favorite movies from the user. You can assume there will be only one user so authentication and user models are not needed to be implemented. This means, only the shows/movies the user selects as favourites need to be stored in the database. This way, when the user enters in the site again, they will see their selection.
 
-Feel free to use any backend that you feel comfortable with, but always using the technologies we use: WordPress, NodeJS (any framework).
+Feel free to use any backend that you feel comfortable with, but always using the technologies we use: WordPress, PHP, NodeJS (any framework) if possible.
 
 ## Frontend
 We provide full design for both Mobile and Desktop versions of the application. Normally we use Zeplin (http://zeplin.io) to provide the design and assets, but you can request Sketch files as well if you prefer (ask the person in contact for them). 
@@ -21,6 +21,8 @@ To see the zeplin project follow this link: https://zpl.io/Z2mVQUm And request a
 For the frontend, you can use any JS framework or library. Preferred are React or Angular, but you can use vanillaJS or jQuery if you feel more comfortable with those, as well as any front-end framework (ui-kit, bootstrap, foundation). Anything that helps you to build faster is completely fine.
 
 Check this Google Drive folder for all the assets you should need (e.g. fonts): https://drive.google.com/drive/u/3/folders/0B7mwU1XUucqxcUZKSWNONGdDdjg
+
+We only ask you to build the Grid of favorites (Named 'Favorites' and 'My Favorites - Mobile' in Zeplin). Do not implement the **detail** pages ('Opened Item layouts')
 
 ## User stories
 At Nolte, we work Agile! That means, normally developers receive the specifications based on user stories. The following user stories will help you to understand the requirements of the application.
@@ -35,10 +37,6 @@ At Nolte, we work Agile! That means, normally developers receive the specificati
   - Show basic information in the grid (poster, title, category, duration, show/movie and rating)
   - Grid items will be ordered depending on the type (Movie or TV Shows)
   
-- As a user I want to be able to see the detail view of the movie/show to get more information.
-  - Detail view of the movie will show all the information available (info in the grid plus director, cast and summary if present)
-  - Back button (arrow) will allow the user to go back to the grid
-
 ## Some examples
 The API might show different movies based on time and/or location, so we provide you enough shows to test.
 * Attack on Titan
